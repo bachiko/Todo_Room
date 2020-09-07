@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp"
+    android:orientation="vertical"
+    tools:context=".fragments.add.AddFragment">
+
+    <TextView
+        android:text="@string/changed_plans"
+        android:textSize="18sp"
+        android:fontFamily="@font/roboto_light"
+        android:layout_width="wrap_content"
+        android:textColor="#888"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/etUpdateTodoName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/todo_background"
+        android:fontFamily="@font/roboto_light"
+        android:paddingTop="10dp"
+        android:paddingBottom="150dp"
+        android:text="Test"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnUpdateTodo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_background"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/update_todo"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp"
+    tools:context=".fragments.add.AddFragment">
+
+    <TextView
+        android:text="@string/what_are_you_planning"
+        android:textSize="18sp"
+        android:fontFamily="@font/roboto_light"
+        android:layout_width="wrap_content"
+        android:textColor="#888"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:paddingStart="1dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="150dp"
+        android:fontFamily="@font/roboto_light"
+        android:id="@+id/etTodoName"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/todo_background"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:background="@drawable/btn_background"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/add_your_todo"
+        android:textAllCaps="false"
+        android:id="@+id/btnAddTodo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
